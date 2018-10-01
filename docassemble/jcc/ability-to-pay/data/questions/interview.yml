@@ -127,7 +127,9 @@ question: |
 subquestion: |
   *Do you currently receive any public benefits?*
 field: has_benefits
-datatype: yesnoradio
+choices:
+  - "Yes"
+  - "No"
 ---
 question: |
   Public Benefits
@@ -159,7 +161,6 @@ question: |
 subquestion: |
   *Do you currently receive any public benefits?*
 field: has_benefits
-input type: radio
 choices:
   - "Yes"
   - "No"

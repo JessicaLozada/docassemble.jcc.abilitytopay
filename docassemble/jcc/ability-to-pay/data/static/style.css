@@ -6436,6 +6436,8 @@ select {
       .tab-pane p em {
         font-size: 1.75rem;
         line-height: 2.5rem; } }
+  .tab-pane a {
+    text-decoration: underline; }
 
 .navbar.navbar-dark, .navbar.bg-dark {
   background-color: #13293d !important;
