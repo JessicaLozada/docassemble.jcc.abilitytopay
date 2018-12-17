@@ -99,6 +99,7 @@ question: |
   Request to Court
 fields: 
 - html: |
+<<<<<<< Updated upstream
     <table class="table table-card">
       <thead>
         <tr>
@@ -117,6 +118,9 @@ fields:
         </tr>
       </tbody>
     </table>
+=======
+    <div class="info-card">${citation_number}<dl><dt>Name</dt><dd>${first_name} ${last_name}</dd><dt>Citation Number</dt><dd>${citation_number}</dd><dt>County</dt><dd>${county}</dd><dt>Violation Date</dt><dd>${violation_date}</dd><dt>Total Due</dt><dd>${total_due}</dd></dl></div>
+>>>>>>> Stashed changes
 - "Would you like to request a reduction in your fine for this citation?": verify_citation
   input type: radio
   choices:
