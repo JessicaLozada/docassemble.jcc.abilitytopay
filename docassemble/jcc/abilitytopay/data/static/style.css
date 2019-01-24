@@ -6486,8 +6486,9 @@ select {
   max-width: 100% !important; }
 
 .yesnospacing .col-md-8 {
-  flex: 0 0 100% !important;
-  max-width: 100% !important; }
+  flex: none !important;
+  max-width: none !important;
+  width: auto; }
 
 .yesnospacing .offset-md-4 {
   margin-left: 0 !important; }
