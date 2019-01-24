@@ -31,7 +31,14 @@ subquestion: |
   * Request more time to pay your ticket
 
   If you wish to contest the ticket or resolve the matter in person, please contact your Court. Refer to your reminder notice.
-
+css: |
+  <style>
+    body {
+      background-color: #0A2B40;
+      background-image: url('${ url_of('docassemble.base:data/static/snowman.png') }');
+      color: #fff;
+    }
+  </style>
 ---
 question: |
   Look Up Your Citation
