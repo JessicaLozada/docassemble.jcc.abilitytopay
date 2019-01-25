@@ -6593,6 +6593,8 @@ select {
   display: none !important; }
 
 .col.rlap {
+  font-family: "Lora", Georgia, Times, serif;
+  font-style: italic;
   position: relative;
   margin-left: none;
   width: auto;
