@@ -6591,3 +6591,9 @@ select {
 .navbar #navbar-collapse, .navbar ul,
 .navbar.navbar-dark .navbar-toggler {
   display: none !important; }
+
+.col.rlap {
+  position: relative;
+  margin-left: none;
+  width: auto;
+  margin-top: 1.5rem; }

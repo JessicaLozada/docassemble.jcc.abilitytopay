@@ -653,3 +653,10 @@ select {
     display: none !important;
   }
 }
+
+.col.rlap {
+  position: relative;
+  margin-left: none;
+  width: auto;
+  margin-top: 1.5rem;
+}
