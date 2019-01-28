@@ -653,3 +653,39 @@ select {
     display: none !important;
   }
 }
+
+/* Toggle help */
+
+.yesnospacing {
+  .btn-light {
+    input.labelauty + label.btn-light {
+      border: 0;
+      padding: 0;
+      color: $secondary;
+    }
+
+    input.labelauty + label.btn-primary:hover, 
+    input.labelauty + label.btn-primary:focus, 
+    input.labelauty + label.btn-primary:active,
+    input.labelauty + label.btn-primary:not(:disabled):not(.disabled):active {
+      background-color: transparent;
+      border: none;
+    }
+
+    input.labelauty + label > span.labelauty-unchecked-image {
+      box-shadow: none;
+      background-color: none;
+      background-image: none;
+    }
+  }
+}
+
+.showif {
+  .form-group {
+    border-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color :$blue-100;
+    padding: 1rem;
+  }
+}

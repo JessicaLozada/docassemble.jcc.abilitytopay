@@ -6591,3 +6591,28 @@ select {
 .navbar #navbar-collapse, .navbar ul,
 .navbar.navbar-dark .navbar-toggler {
   display: none !important; }
+
+/* Toggle help */
+.yesnospacing .btn-light input.labelauty + label.btn-light {
+  border: 0;
+  padding: 0;
+  color: #0B5FA5; }
+
+.yesnospacing .btn-light input.labelauty + label.btn-primary:hover,
+.yesnospacing .btn-light input.labelauty + label.btn-primary:focus,
+.yesnospacing .btn-light input.labelauty + label.btn-primary:active,
+.yesnospacing .btn-light input.labelauty + label.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: transparent;
+  border: none; }
+
+.yesnospacing .btn-light input.labelauty + label > span.labelauty-unchecked-image {
+  box-shadow: none;
+  background-color: none;
+  background-image: none; }
+
+.showif .form-group {
+  border-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #e8f0fa;
+  padding: 1rem; }

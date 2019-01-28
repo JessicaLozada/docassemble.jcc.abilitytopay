@@ -45,14 +45,8 @@ fields:
   required: false
 - "I don't have my citation number": no_citation_number
   datatype: yesno
-- What is your first name?: first_name
-  show if: no_citation_number
-- What is your last name?: last_name
-  show if: no_citation_number
-- What's your date of birth?: dob
-  datatype: date
-  show if: no_citation_number
-- What is your Driver's License Number?: license_number
+- html: |
+    <div class="info-note"><h4>What is considered a public benefit?</h4> <p>At last the mouse who seemed to be a person of authority amonth them, called out. </p></div>
   show if: no_citation_number
 ---
 code: |
